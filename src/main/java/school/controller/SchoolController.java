@@ -43,7 +43,12 @@ public class SchoolController {
 	@RequestMapping("/perPartition")  //이수 구분별 학점 조회
 	public String getPerPartitionScore(Model model){
 		List<School> schoolPerPartitionScore=schoolService.getPerPartitionScore_service();
+		int totalScore=0;
+		for(School school:schoolPerPartitionScore){
+			totalScore+=school.getScore();
+		}
 		model.addAttribute("schools",schoolPerPartitionScore);
+		model.addAttribute("totalScore",totalScore);
 		return "perPartition";
 	}
 	@RequestMapping("/applySubjectHome")  //수강 신청 홈으로 

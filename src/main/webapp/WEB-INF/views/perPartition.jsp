@@ -13,11 +13,13 @@
 			<c:forEach var="schoolPerPartitionScore" items="${schools}">
 				<td><c:out value="${schoolPerPartitionScore.partition}"></c:out></td>
 			</c:forEach>
+			<td>총학점</td>
 		</tr>
 		<tr>
 			<c:forEach var="schoolPerPartitionScore" items="${schools}">
 				<td><c:out value="${schoolPerPartitionScore.score}"></c:out></td>
 			</c:forEach>
+			<td><c:out value="${totalScore}"></c:out></td>
 		</tr>
 	</table>
 </body>
