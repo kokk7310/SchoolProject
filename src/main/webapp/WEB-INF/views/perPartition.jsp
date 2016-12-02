@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<p>이수 구분별 학점 내역</p>
 	<table border=1>
 
 		<tr>

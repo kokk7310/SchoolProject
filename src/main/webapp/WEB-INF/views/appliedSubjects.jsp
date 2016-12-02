@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<p>수강신청 조회</p>
 <table border=1>
 		<tr>
 			<td  align=center>수강년도</td>

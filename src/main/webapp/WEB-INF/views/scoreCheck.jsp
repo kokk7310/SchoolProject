@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<p>학년/학기별 이수 총 학점</p>
 <table border=1>
 		<tr align=center>
 			<td  align=center>년도</td>

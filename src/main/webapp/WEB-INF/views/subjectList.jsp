@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<p>과목별 리스트</p>
 	<table border=1>
 		<tr>
 			<td>  교과목 리스트  </td>
